@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="https://images.vexels.com/media/users/3/223136/isolated/preview/984f500cf9de4519b02b354346eb72e0-facebook-icon-social-media-by-vexels.png">
+    <link rel="stylesheet" href="stylo.css">
+    <title>Facebook</title>
+  
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="facebook">
+                <i class='bx bxl-facebook-circle'></i>
+            </div>
+            <div class="buscar">
+                <input type="text" placeholder="  Buscar en facebook">
+            </div>
+            <div class="iconos">
+                <div class="iconosi">
+                    <a href="index.html"><i class='bx bxs-home'></i></a>
+                </div>
+                <div class="iconosi">
+                    <i class='bx bxs-user-plus' ></i>
+                </div>
+                <div class="iconosi">
+                    <i class='bx bx-tv' ></i>
+                </div>
+                <div class="iconosi">
+                    <i class='bx bxs-store'></i>
+                </div>
+                <div class="iconosi">
+                    <i class='bx bxs-user-badge'></i>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+    <section class="container">
+        <div class="amigos">
+            <h1><i class='bx bxs-group' ></i> Amigos</h1>
+            <h1><i class='bx bx-group' ></i> Grupos</h1>
+            <h1><i class='bx bxs-store' ></i> Marketplace</h1>
+            <h1><i class='bx bxs-video' ></i>video</h1>
+        </div>
+        <div class="configurar">
+        <div class="publicar" > 
+            
+            <div class="titulo">
+                <i id="crear" class='bx bxs-user-circle'></i>
+                <h1>CREAR PUBLICACION</h1></div>
+            <div class="datos">
+                <label for="contenido">Contenido de publicación</label>
+                <input class="input" type="text" name="Comentario" id="Comentario">
+                <label for="imagen">Imagen</label>
+                <input class="input" type="text" name="url" id="url">
+                <label for="usuario">Usuaria de publicación</label>
+                <select name="idUsuarios" id="idUsuarios">
+                <select  class="input" name="idUsuarios" id="idUsuarios">
+                </select>
+                <button id="boton">PUBLICAR</button>
+            </div>
+    
+         </div>
+        <div class="mostrar" id="mostrar"></div> 
+      </div>
+     
+        <div class="boton">
+            
+        </div>
+        
+    </section>
+
+    
+    <!-- <div class="primero">
+        <div class="segundo">
+
+            <h1>Amigos</h1>
+            <h1>Grupos</h1>
+            <h1>Marketplace</h1>
+            <h1>video</h1>
+
+        </div>
+
+        <div id="mostrar">
+
+        </div>
+
+          <a href="http://localhost:3000/create">NUEVA PUBLICACION</a>
+        <button onclick="Apis()" >MOSTRAR PUBLICACIONES</button>
+    </div> -->
+       <script src="./recorrer.js"></script>
+</body>
+</html>
