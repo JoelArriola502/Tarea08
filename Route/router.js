@@ -38,11 +38,6 @@ router.post("/insertar", (req, res) => {
       res.json({ mensaje: "Publicación realizada con éxito" });
     });
   });
-router.get('/create',(req,res)=>{
-    res.render('create');
-})
-const crud = require('../crud')
 
-router.post('/save',crud.save)
 
 module.exports = router;
